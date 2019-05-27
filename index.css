@@ -1,0 +1,29 @@
+.heart{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    transform: rotateZ(-45deg);
+}
+div:before {
+    content: "";
+    position:absolute;
+    top: -50px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+div:after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50%;
+}
